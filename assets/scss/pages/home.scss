@@ -1,4 +1,7 @@
 .home-video{
+    background-color: #ffffff;
+    mix-blend-mode: multiply;
+    z-index: -1;
     video{    
         position: absolute;
         z-index: -1;

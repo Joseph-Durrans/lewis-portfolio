@@ -28,6 +28,7 @@ header .header-row .navigation {
   align-items: center;
 }
 header .header-row .navigation a {
+  z-index: 1;
   margin-left: 25px;
   color: #ffffff;
   font-weight: 700;
@@ -54,6 +55,11 @@ footer .footer-items .footer-content {
   letter-spacing: 2px;
 }
 
+.home-video {
+  background-color: #ffffff;
+  mix-blend-mode: multiply;
+  z-index: -1;
+}
 .home-video video {
   position: absolute;
   z-index: -1;
