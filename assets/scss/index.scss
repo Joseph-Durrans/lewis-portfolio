@@ -1,1 +1,10 @@
-@import 'partials/home.scss';
+// Variables/Global
+@import 'variables.scss';
+@import 'global.scss';
+
+// Partials
+@import 'partials/header.scss';
+@import 'partials/footer.scss';
+
+// Pages
+@import 'pages/home.scss';

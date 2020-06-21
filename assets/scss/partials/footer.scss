@@ -1,0 +1,15 @@
+footer{
+    background-color: $footer-background;
+
+    .footer-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+
+        .footer-content{
+            color: #ffffff;
+            letter-spacing: 2px;
+        }
+    }
+}

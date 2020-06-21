@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+body a {
+  font-family: "Montserrat", sans-serif;
+}
+body p {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #292929;
+}
+header .header-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .header-row .title-logo {
+  width: 250px;
+}
+header .header-row .navigation {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .header-row .navigation a {
+  margin-left: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+header .header-row .navigation a.active {
+  border-bottom: 2px solid #ffffff;
+}
+
+footer {
+  background-color: #292929;
+}
+footer .footer-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+footer .footer-items .footer-content {
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.home-video video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
