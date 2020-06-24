@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 body a {
   font-family: "Montserrat", sans-serif;
@@ -11,8 +11,22 @@ body p {
   font-family: "Montserrat", sans-serif;
 }
 
+.page-title {
+  margin-top: 100px;
+  text-align: center;
+}
+.page-title h1 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
 header {
   background-color: #292929;
+}
+header.home {
+  background-color: transparent;
 }
 header .header-row {
   padding-top: 20px;
@@ -55,11 +69,6 @@ footer .footer-items .footer-content {
   letter-spacing: 2px;
 }
 
-.home-video {
-  background-color: #ffffff;
-  mix-blend-mode: multiply;
-  z-index: -1;
-}
 .home-video video {
   position: absolute;
   z-index: -1;
@@ -68,4 +77,55 @@ footer .footer-items .footer-content {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.home-video .job-title {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  color: #ffffff;
+}
+.home-video .job-title h1 {
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.home-video .description {
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 100%;
+  position: absolute;
+  top: 48%;
+  text-align: center;
+  color: #ffffff;
+}
+.home-video .description p {
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.about-description {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.about-description p {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.youtube-videos {
+  margin-bottom: 100px;
+}
+.youtube-videos .col-lg-6 {
+  margin-top: 50px;
+}
+.youtube-videos .title {
+  margin-top: 20px;
+  text-align: center;
+}
+.youtube-videos .title h3 {
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }

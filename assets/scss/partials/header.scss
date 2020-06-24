@@ -1,5 +1,9 @@
 header{
     background-color: $header-background;
+    
+    &.home{
+        background-color: transparent;
+    }
 
     .header-row{
         padding-top: 20px;

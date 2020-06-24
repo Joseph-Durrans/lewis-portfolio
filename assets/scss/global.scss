@@ -3,7 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 
     h1, h2, h3, h4, h5, h6{
-        font-family: 'Montserrat Subrayada', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     a{
@@ -12,6 +12,17 @@ body{
 
     p{
         font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.page-title{
+    margin-top: 100px;
+    text-align: center;
+    h1{
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        text-transform: uppercase;
     }
 }
 
