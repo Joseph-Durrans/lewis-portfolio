@@ -95,5 +95,8 @@ header{
             }
         }
         display: none;
+        @media(min-width: 992px){
+            display: none !important;
+        }
     }
 }
