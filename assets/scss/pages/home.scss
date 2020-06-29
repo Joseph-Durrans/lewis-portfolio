@@ -10,29 +10,39 @@
     }
 
     .job-title{
+        padding-left: 20%;
+        padding-right: 20%;
+        @media(max-width: 767px){
+            padding-left: 10%;
+            padding-right: 10%;
+        }
         width: 100%;
         position: absolute;
-        top: 40%;
+        top: 45%;
         text-align: center;
         color: #ffffff;
         h1{
             font-weight: 700;
             letter-spacing: 8px;
             text-transform: uppercase;
+            @media(max-width: 991px){
+                font-size: 2rem;
+            }
+            @media(max-width: 767px){
+                font-size: 1.5rem;
+            }
         }
-    }
 
-    .description{
-        padding-left: 30%;
-        padding-right: 30%;
-        width: 100%;
-        position: absolute;
-        top: 48%;
-        text-align: center;
-        color: #ffffff;
         p{
             font-size: 25px;
             letter-spacing: 4px;
-        }
+            @media(max-width: 991px){
+                font-size: 20px;
+                letter-spacing: 2px;
+            }
+            @media(max-width: 767px){
+                font-size: 16px;
+            }
+        }      
     }
 }

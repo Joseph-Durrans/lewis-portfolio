@@ -11,6 +11,9 @@ header{
 
         .title-logo{
             width: 250px;
+            @media(max-width: 991px){
+                width: 200px;
+            }
         }
 
         .navigation{
@@ -24,7 +27,7 @@ header{
                 margin-left: 25px;
                 color: #ffffff;
                 font-weight: 700;
-                font-size: 18px;
+                font-size: 16px;
                 text-transform: uppercase;
                 letter-spacing: 2px;
                 text-decoration: none;
@@ -33,6 +36,64 @@ header{
                     border-bottom: 2px solid #ffffff;
                 }
             }
+            @media(max-width: 991px){
+                display: none;
+            }
         }
+
+        .mobile{
+            svg{
+                fill: #ffffff;
+                opacity: 1;
+                &:hover{
+                    opacity: 1;
+                    fill: #ffffff;
+                }
+            }
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            .close{
+                display: none;
+                z-index: 2;
+            }
+            .burger{
+                z-index: 2;
+            }
+            display: none;
+            @media(max-width: 991px){
+                display: flex;
+            }
+        }
+    }
+
+    .hover-nav{
+        background-color: $header-background;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        a{
+            z-index: 1;
+            margin-top: 10px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-decoration: none;
+
+            &.active{
+                border-bottom: 2px solid #ffffff;
+            }
+        }
+        display: none;
     }
 }
