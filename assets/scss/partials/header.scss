@@ -9,12 +9,16 @@ header{
         padding-top: 20px;
         padding-bottom: 20px;
 
-        .title-logo{
-            width: 250px;
-            @media(max-width: 991px){
-                width: 200px;
+        .logo-box{
+            z-index: 1;
+            .title-logo{
+                width: 250px;
+                @media(max-width: 991px){
+                    width: 200px;
+                }
             }
         }
+
 
         .navigation{
             height: 100%;
