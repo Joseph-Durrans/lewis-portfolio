@@ -53,6 +53,11 @@ header .header-row .logo-box .title-logo {
     width: 200px;
   }
 }
+@media (max-width: 767px) {
+  header .header-row .logo-box .title-logo {
+    width: 120px;
+  }
+}
 header .header-row .navigation {
   height: 100%;
   display: flex;
