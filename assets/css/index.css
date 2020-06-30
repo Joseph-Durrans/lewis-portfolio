@@ -128,7 +128,7 @@ header .hover-nav a {
 header .hover-nav a.active {
   border-bottom: 2px solid #ffffff;
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   header .hover-nav {
     display: none !important;
   }
